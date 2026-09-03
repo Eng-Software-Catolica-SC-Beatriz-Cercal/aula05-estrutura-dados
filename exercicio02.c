@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 
 int contarPares(int v[], int n);
 
@@ -14,9 +16,7 @@ int main(void){
         printf("Digite um numero: ");
         scanf("%i", &v[i]);
     }
-
     printf("Quantidade de pares: %i\n", contarPares(v, n));
-
     return 0;
 }
 

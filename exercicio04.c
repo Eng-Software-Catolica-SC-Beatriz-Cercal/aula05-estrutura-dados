@@ -17,9 +17,7 @@ int main(void)
         printf("Digite um numero: ");
         scanf("%i", &v[i]);
     }
-
     printf("Maior valor do vetor: %i\n", maiorValor(v, n));
-
     return 0;
 }
 
@@ -27,9 +25,7 @@ int maiorValor(int v[], int n)
 {
     if (n == 1)
         return v[0];
-
     if (v[n - 1] > maior(v, n - 1))
         return v[n - 1];
-
     return maior(v, n - 1);
 }

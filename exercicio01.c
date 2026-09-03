@@ -8,9 +8,7 @@ int main(void){
 	
 	printf("Digite um numero: ");
 	scanf("%i",&n);
-	
 	printf("O valor e %i\n",pit(n));
-	
 	return 0;
 }
 
